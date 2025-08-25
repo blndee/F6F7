@@ -1,0 +1,64 @@
+const departTripTicket = {
+  name: "Passenger 1",
+  from: "City A",
+  to: "City B",
+  businessClass: false,
+
+  upgrade() {
+    if (!this.businessClass) {
+      this.businessClass = true;
+      return "Upgraded to Business Class!";
+    } else {
+      return "Already Business Class";
+    }
+  },
+
+  leaveTime: 12,
+  arriveTime: 15,
+
+  flightTime() {
+    return `${this.arriveTime - this.leaveTime}h`;
+  },
+
+  toString() {
+    return `${this.name} | ${this.from} → ${this.to} | ${this.businessClass ? "Business" : "Economy"} | ${this.leaveTime}:00-${this.arriveTime}:00 (${this.flightTime()})`;
+  },
+
+  upgradeAndShow() {
+    return `${this.upgrade()}\n${this.toString()}`;
+  }
+};
+
+const returnTripTicket = {
+  name: "Passenger 1",
+  from: "City B",
+  to: "City A",
+  businessClass: true,
+
+  upgrade() {
+    if (!this.businessClass) {
+      this.businessClass = true;
+      return "Upgraded to Business Class!";
+    } else {
+      return "Already Business Class";
+    }
+  },
+
+  leaveTime: 18,
+  arriveTime: 21,
+
+  flightTime() {
+    return `${this.arriveTime - this.leaveTime}h`;
+  },
+
+  toString() {
+    return `${this.name} | ${this.from} → ${this.to} | ${this.businessClass ? "Business" : "Economy"} | ${this.leaveTime}:00-${this.arriveTime}:00 (${this.flightTime()})`;
+  },
+
+  upgradeAndShow() {
+    return `${this.upgrade()}\n${this.toString()}`;
+  }
+};
+
+console.log(departTripTicket.upgradeAndShow());
+console.log(returnTripTicket.upgradeAndShow());

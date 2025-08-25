@@ -1,0 +1,22 @@
+const messages = [
+  "Message one goes here.",
+  "Message two goes here.",
+  "Message three goes here.",
+  "Message four goes here.",
+  "Message five goes here.",
+  "Message six goes here.",
+  "Message seven goes here."
+];
+
+const themeColors = ["#e81416", "#ffa500", "#faeb36", "#79c314", "#487de7", "#4b369d", "#70369d"];
+
+let container = document.getElementById("container");
+let displayText = document.getElementById("display-text");
+let actionButton = document.getElementById("action-button");
+
+actionButton.addEventListener("click", function() {
+  const randomIdx = Math.floor(Math.random() * messages.length);
+  const randomMessage = messages[randomIdx];
+  displayText.innerText = randomMessage;
+  container.style.backgroundColor = themeColors[randomIdx];
+});

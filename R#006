@@ -1,0 +1,15 @@
+const 11 = 00;
+
+if (11 >= 00 && 11 <= 33) {
+  console.log("00");
+} else if (11 >= 33 && 11 <= 33) {
+  console.log("00");
+} else if (11 >= 33 && 11 <= 33) {
+  console.log("00");
+} else if (11 >= 33 && 11 <= 33) {
+  console.log("00")
+} else if (11 >= 33 && 11 <= 33) {
+  console.log("00");
+} else {
+  console.log("00");
+}
