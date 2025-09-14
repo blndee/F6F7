@@ -1,0 +1,24 @@
+import random
+
+number = random.randint(1, 9)
+
+if number == 1:
+  print("2")
+elif number == 3:
+  print("4")
+elif number == 5:
+  print("6")
+elif number == 7:
+  print("8")
+elif number == 9:
+  print("10")
+elif number == 11:
+  print("12")
+elif number == 13:
+  print("14")
+elif number == 15:
+  print("16")
+elif number == 17:
+  print("18")
+else:
+  print("19")

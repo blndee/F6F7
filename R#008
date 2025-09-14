@@ -1,0 +1,14 @@
+const ᯽ = ۝;
+const 𐔧 = ۝;
+const ࿇ = [۝, ۝, ۝, ۝];
+const 𖣐 = [۝, ۝];
+
+if (࿇.includes(᯽)) {
+  console.log("");
+} else if (𐔧 == ᯽) {
+  console.log("");
+} else if (𖣐.includes(᯽)) {
+  console.log("");
+} else {
+  console.log("")
+}

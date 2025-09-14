@@ -1,0 +1,27 @@
+menuList = [
+  '🍔 Item 1', '🍟 Item 2',
+  '🥤 Item 3', '🍦 Item 4', '🍪 Item 5'
+]
+
+def welcome():
+  print('Welcome to our drive-thru!')
+  print('Here is our menu:')
+  print(f'1. {menuList[0]}')
+  print(f'2. {menuList[1]}')
+  print(f'3. {menuList[2]}')
+  print(f'4. {menuList[3]}')
+  print(f'5. {menuList[4]}')
+
+def get_item(num):
+  item = menuList[num-1]
+  return item
+
+def main():
+  welcome()
+  try:
+    item = int(input('Place your menu number: '))
+    print(f'You order is {get_item(item)}.')
+  except ValueError:
+    print('Please enter a valid menu number.')
+
+main()

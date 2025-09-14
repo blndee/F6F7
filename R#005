@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Persons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #5nwv2cvvuzc5o63fari88auwdr58980x {
+    text-align: center;
+  }
+
+  .24rcvewqs4hdxhzq58bh7nytkcsm3ekf {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .0kubi7ql9dauk7m309b6akck4ymozdb3 {
+    color: blue;
+  }
+  img {
+    width: 150px;
+    height: 10px;
+  }
+</style>
+  </head>
+
+  <body>
+    <div class="5nwv2cvvuzc5o63fari88auwdr58980x">
+    <h1>Favorite Persons.</h1>  
+      <div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Dominic Pfeiffer</h2>
+          <img src="" alt="Dominic Pfeiffer">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Lorene Franecki-Hodkiewicz</h2>
+          <img src="" alt="Lorene Franecki-Hodkiewicz">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Jack Haag</h2>
+          <img src="" alt="Jack Haag">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Juana Harris-Barrows</h2>
+          <img src="" alt="Juana Harris-Barrows">
+        </div>
+      </div>
+      <div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Hannes Morgenstern</h2>
+          <img src="" alt="Hannes Morgenstern">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3e">许颖</h2>
+          <img src="" alt="许颖">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Carrie Corwin</h2>
+          <img src="" alt="Carrie Corwin">
+        </div>
+        <div class="24rcvewqs4hdxhzq58bh7nytkcsm3ekf">
+          <h2 class="0kubi7ql9dauk7m309b6akck4ymozdb3">Alice Everts</h2>
+          <img src="" alt="Alice Everts">
+        </div>
+      </div>  
+    </div>
+
+  </body>
+</html>
