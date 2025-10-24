@@ -1,0 +1,45 @@
+const goodreadsInfo = {
+  currentlyReading: [
+    { title: "TitleOne", author: "AuthorOne" }
+  ],
+
+  wantToRead: [
+    { title: "TitleTwo", author: "AuthorTwo" }
+  ]
+};
+
+const addNewBooks = (books, additionalBookObjects = []) => {
+  return [...books, ...additionalBookObjects];
+};
+
+goodreadsInfo.currentlyReading = addNewBooks(goodreadsInfo.currentlyReading, [
+  { title: "TitleTwo", author: "AuthorTwo" },
+  { title: "TitleThree", author: "AuthorThree" }
+]);
+
+goodreadsInfo.wantToRead = addNewBooks(goodreadsInfo.wantToRead, [
+  { title: "TitleFour", author: "AuthorFour" },
+  { title: "TitleFive", author: "AuthorFive" }
+]);
+
+const showGoodreadsInfo = (info) => {
+  const currentlyReading = info.currentlyReading;
+  const wantToRead = info.wantToRead;
+
+  console.log("Currently Reading:");
+  for (let book of currentlyReading) {
+    console.log(`${book.title}`);
+    console.log(`${book.author}`);
+    console.log();
+  }
+
+  console.log("Want to Read:");
+  for (let book of wantToRead) {
+    console.log(`${book.title}`);
+    console.log(`${book.author}`);
+    console.log();
+  }
+};
+
+
+showGoodreadsInfo(goodreadsInfo);
