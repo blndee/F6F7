@@ -1,0 +1,7 @@
+async function fetchFunction() {
+  const response = await fetch("");
+    if (!response.ok) {
+      throw new Error("");
+      }
+    const data = await response.json();
+  }
